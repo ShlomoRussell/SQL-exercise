@@ -28,4 +28,4 @@ SELECT SUM(p.weight)
 FROM Client AS c 
   JOIN Package as P 
   ON c.AccountNumber = p.Sender
-WHERE c.Name = "Al Gore's Head";
+WHERE c.Name = 'Al Gore"s Head';
